@@ -1,0 +1,4 @@
+interface:
+  display_name: "Context Resume"
+  short_description: "Resume coding from a verified local handoff"
+  default_prompt: "Use $context-resume to recover the intended task and continue safely."

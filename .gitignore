@@ -1,0 +1,7 @@
+__pycache__/
+*.py[cod]
+.context-ledger/
+.venv/
+.DS_Store
+work/
+dist/

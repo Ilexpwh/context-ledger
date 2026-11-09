@@ -1,0 +1,4 @@
+interface:
+  display_name: "Context Ledger"
+  short_description: "Durable coding goals and compact local memory"
+  default_prompt: "Use $context-ledger to maintain this coding task across context boundaries."

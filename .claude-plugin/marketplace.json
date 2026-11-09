@@ -1,0 +1,14 @@
+{
+  "name": "context-ledger-marketplace",
+  "description": "Local coding context skills and lifecycle hooks",
+  "owner": {
+    "name": "ilexpwh"
+  },
+  "plugins": [
+    {
+      "name": "context-ledger",
+      "source": "./",
+      "description": "Local goals, bounded handoffs and Markdown retrieval for coding agents."
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "context-ledger",
+  "version": "0.1.0",
+  "description": "Local goals, bounded handoffs and Markdown retrieval for coding agents.",
+  "author": {
+    "name": "ilexpwh"
+  },
+  "license": "MIT",
+  "repository": "https://github.com/ilexpwh/context-ledger",
+  "extensions": {
+    "com.openai": {
+      "hooks": "./hooks/codex.json",
+      "interface": {
+        "displayName": "Context Ledger",
+        "shortDescription": "Persistent goals and compact coding handoffs"
+      }
+    }
+  }
+}

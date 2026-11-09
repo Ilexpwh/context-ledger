@@ -1,0 +1,4 @@
+interface:
+  display_name: "Context Index"
+  short_description: "Find Markdown evidence without bulk reading"
+  default_prompt: "Use $context-index to find the project documentation needed for this task."
