@@ -169,4 +169,4 @@ claude plugin validate .claude-plugin/marketplace.json
 
 Edit `scripts/package.py` and regenerate manifests/commands with `python3 scripts/package.py`. The runtime has no dependencies outside Python's standard library. Skill metadata can additionally be validated with Codex's skill-creator validator.
 
-MIT licensed. Public GitHub publication is a separate step; see [publishing](docs/publishing.md).
+MIT licensed. See [publishing](docs/publishing.md) for repository setup and the SSH push workflow.
