@@ -33,10 +33,10 @@ Use **one** installation method per host/project to avoid duplicate hooks. Insta
 
 ### Claude Code plugin
 
-From a local checkout:
+Register the GitHub marketplace:
 
 ```sh
-claude plugin marketplace add /absolute/path/to/context-ledger
+claude plugin marketplace add Ilexpwh/context-ledger
 claude plugin install context-ledger@context-ledger-marketplace
 ```
 
@@ -50,14 +50,14 @@ Restart Claude Code after installation. Review the installed commands and hooks 
 
 ### Codex plugin
 
-From a local checkout:
+Register the GitHub marketplace:
 
 ```sh
-codex plugin marketplace add /absolute/path/to/context-ledger
+codex plugin marketplace add Ilexpwh/context-ledger
 codex plugin add context-ledger@context-ledger-marketplace
 ```
 
-Restart Codex and review/trust the hook definitions in `/hooks` or the desktop Hooks settings. Codex skips untrusted hooks. Releases with a Plugins UI but no `plugin add` command can install from the registered local marketplace there.
+Restart Codex and review/trust the hook definitions in `/hooks` or the desktop Hooks settings. Codex skips untrusted hooks. Releases with a Plugins UI but no `plugin add` command can install from the registered marketplace there. Both hosts also accept `/absolute/path/to/context-ledger` in place of `Ilexpwh/context-ledger` for a local marketplace checkout.
 
 This repository is a Git-distributable marketplace, not a listing in OpenAI's public plugin directory. OpenAI currently excludes hook-bearing plugins from that directory; local/manual plugin installation is supported. [Official packaging guidance](https://developers.openai.com/plugins/build/plugins)
 

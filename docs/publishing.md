@@ -1,6 +1,6 @@
 # Publishing
 
-The public repository target is `Ilexpwh/context-ledger`. GitHub repository creation requires a signed-in web or API session; SSH authentication supports Git fetch and push but cannot create a repository.
+The public repository is [Ilexpwh/context-ledger](https://github.com/Ilexpwh/context-ledger). GitHub repository creation requires a signed-in web or API session; SSH authentication supports Git fetch and push but cannot create a repository.
 
 For the first publication, create an empty **public** repository named `context-ledger` under `Ilexpwh` at [GitHub](https://github.com/new). Do not initialize it with a README, license or `.gitignore`: those files are already committed locally. Alternatively, use GitHub CLI after checking that its active account is `Ilexpwh`:
 
@@ -30,7 +30,7 @@ git push -u origin main
 
 For later updates, run the checks in `AGENTS.md`, review and commit the changes, then run `git push`. Do not force-push over unrelated remote history.
 
-Once published, users can register the GitHub marketplace:
+Users can register the GitHub marketplace:
 
 ```sh
 claude plugin marketplace add ilexpwh/context-ledger
